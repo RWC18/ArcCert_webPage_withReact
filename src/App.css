@@ -1,0 +1,67 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.head {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0px;
+  z-index: 1;
+  -webkit-box-shadow: 0px -20px 90px grey;
+  box-shadow: 0px -20px 90px grey; }
+  .head .left-side, .head .right-side {
+    display: inline-block;
+    vertical-align: top; }
+  .head .left-side {
+    padding: 25px;
+    width: 40%; }
+  .head .right-side {
+    padding: 35px;
+    width: 60%;
+    padding-left: 140px; }
+    .head .right-side a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #030351;
+      margin-left: 25px;
+      font-size: 18px; }
+      .head .right-side a:hover {
+        color: #05056F; }
+    .head .right-side .sign-in {
+      color: white;
+      background-color: #8fbf42;
+      padding: 10px 15px;
+      border-radius: 5px; }
+
+.under-head {
+  height: 620px;
+  margin-top: 100px;
+  background-image: url(https://arccert.io/man-arccert.e5b258e5cadc9884af67.svg);
+  background-position: -50px 0px;
+  background-repeat: no-repeat;
+  position: relative; }
+  .under-head div {
+    width: 30%;
+    position: absolute;
+    right: 50px;
+    top: 150px; }
+    .under-head div h1 {
+      color: #030351;
+      font-size: 45px; }
+    .under-head div p {
+      color: #26a9e0;
+      font-size: 25px; }
+    .under-head div a {
+      color: white;
+      background-color: #0e6997;
+      text-decoration: none;
+      font-weight: bold;
+      display: block;
+      width: 220px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      margin-left: 100px;
+      margin-top: 30px; }
